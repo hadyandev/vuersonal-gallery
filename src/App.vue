@@ -1,10 +1,16 @@
 <template>
-  <h1>hello sekai</h1>
+  <div>
+    <AppHeader></AppHeader>
+  </div>
 </template>
 
 <script>
+import AppHeader from "./components/AppHeader";
 export default {
-  name: "App"
+  name: "App",
+  components: {
+    AppHeader
+  }
 };
 </script>
 
